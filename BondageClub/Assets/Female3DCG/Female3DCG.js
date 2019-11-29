@@ -404,6 +404,21 @@ var AssetFemale3DCG = [
 	},
 
 	{
+		Group: "Height",
+		AllowNone: false,
+		AllowColorize: false,
+		Asset: [
+			{ Name: "175cm", Zoom: 1.000, Visible: false },
+			{ Name: "170cm", Zoom: 0.975, Visible: false },
+			{ Name: "165cm", Zoom: 0.950, Visible: false },
+			{ Name: "160cm", Zoom: 0.925, Visible: false },
+			{ Name: "155cm", Zoom: 0.900, Visible: false },
+			{ Name: "150cm", Zoom: 0.875, Visible: false },
+			{ Name: "145cm", Zoom: 0.850, Visible: false }
+		]
+	},
+	
+	{
 		Group: "BodyUpper",
 		Priority: 5,
 		AllowNone: false,
