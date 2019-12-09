@@ -77,6 +77,24 @@ var AssetFemale3DCG = [
 			{ Name: "ShoulderlessTop", Value: 40, HideItem: ["ItemNipplesPiercingsRoundPiercing", "ItemNipplesPiercingsWeightedPiercing"] }
 		]
 	},
+	
+	{
+	    Group: "Suit",
+		ParentGroup: "BodyUpper",
+		ParentColor: "Cloth",
+		Clothing: true,
+		AllowPose: ["TapedHands", "BackBoxTie", "BackCuffs", "BackElbowTouch", "Bolero", "Yoked"],
+		Color: ["Default", "#202020", "#808080", "#bbbbbb", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"],
+		Asset: [
+		    {
+			    Name: "CatSuit", Priority: 17, Value: 100, BuyGroup: "Cat", Hide: ["Hands", "ItemNipples", "ItemNipplesPiercings"],
+				Layer: [
+					{ Name: "Base", AllowColorize: true },
+					{ Name: "Zip", AllowColorize: false }
+				]
+			}
+		]
+	},
 
 	{
 		Group: "ClothLower",
@@ -104,6 +122,27 @@ var AssetFemale3DCG = [
 			{ Name: "LatexSkirt2", Priority: 26, Value: 60, Expose: ["ItemVulva", "ItemVulvaPiercings", "ItemButt"] },
 			{ Name: "ClothSkirt1", Priority: 26, Value: 40, Expose: ["ItemVulva", "ItemVulvaPiercings", "ItemButt"] },
 			{ Name: "Jeans2", Priority: 22, Hide: ["ItemVulva", "ItemVulvaPiercings"], HideItem: ["SocksSocksFur", "SocksSocks6"], Value: 20 }
+		]
+	},
+	
+	{
+		Group: "SuitLower",
+		Default: false,
+		ParentGroup: "BodyLower",
+		ParentColor: "Cloth",
+		Clothing: true,
+		AllowPose: ["LegsClosed", "Kneel", "StraitDressOpen", "Horse","KneelingSpread"],
+		Color: ["Default", "#202020", "#808080", "#bbbbbb", "#aa8080", "#80aa80", "#8080aa", "#aaaa80", "#80aaaa", "#aa80aa", "#cc3333", "#33cc33", "#3333cc", "#cccc33", "#33cccc", "#cc33cc"],
+		Left: 105,
+		Top: 380,
+		Asset: [
+		{ 
+			    Name: "CatSuit", Priority: 17, Value: 100, BuyGroup: "Cat", Hide: ["ClothLower", "Bra", "ItemVulva", "ItemVulvaPiercings", "ItemButt"], HideItem: ["SocksPantyhose1", "PantiesSunstripePanties1", "PantiesHarnessPanties1","PantiesPanties14", "PantiesDiapers1"],
+				Layer: [
+					{ Name: "Base", AllowColorize: true },
+					{ Name: "Zip", AllowColorize: false }
+				]
+			}
 		]
 	},
 

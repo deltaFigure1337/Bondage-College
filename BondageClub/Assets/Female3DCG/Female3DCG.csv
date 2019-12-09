@@ -31,6 +31,8 @@ Cloth,SteampunkCorsetTop1,Steampunk Corset
 Cloth,BondageDress1,Bondage Dress Style 1
 Cloth,BondageDress2,Bondage Dress Style 2
 Cloth,ShoulderlessTop,Shoulderless Top
+Suit,Upper Suit
+Suit,CatSuit,CatSuit
 ClothLower,,Bottom
 ClothLower,Skirt1,Skirt
 ClothLower,TennisSkirt1,Tennis
@@ -46,6 +48,8 @@ ClothLower,LatexSkirt1,Latex Skirt
 ClothLower,LatexSkirt2,Long Latex Skirt
 ClothLower,ClothSkirt1,Patterned Skirt
 ClothLower,Jeans2,Ripped Jeans
+SuitLower,,Suit Lower
+SuitLower,CatSuit,CatSuit
 Bra,,Bra
 Bra,Bra1,Style 1
 Bra,Bra2,Style 2
