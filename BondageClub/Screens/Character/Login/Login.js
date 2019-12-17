@@ -4,8 +4,8 @@ var LoginMessage = "";
 var LoginCredits = null;
 var LoginCreditsPosition = 0;
 var LoginThankYou = "";
-var LoginThankYouList = ["Alvin", "Bryce", "Christian", "Dan", "Desch", "Dick", "Dini", "DonOlaf", "Escurse", "Ethan", "Greendragon", "John", "Kitten", "Laioken", "Lennart", "Michal", "Mindtie", "Misa",
-						 "MunchyCat", "Nick", "Overlord", "Rashiash", "Robin", "Ryner", "Samuel", "Setsu", "Shadow", "Shinonon", "Simeon", "Sky", "Terry", "Victor", "William", "Winterisbest", "Xepherio"];
+var LoginThankYouList = ["Alvin", "BlueWinter", "Bryce", "Christian", "Dan", "Desch", "Dini", "DonOlaf", "Escurse", "Fluffythewhat", "Greendragon", "John", "Kitten", "Laioken", "Lennart", "Michal", "Mindtie", "Misa",
+						 "MunchyCat", "Nick", "Overlord", "Rashiash", "Robin", "Ryner", "Samuel", "Setsu", "Shadow", "Shaun", "Simeon", "Sky", "Terry", "Victor", "William", "Winterisbest", "Xepherio"];
 var LoginThankYouNext = 0;
 
 // Loads the next thank you bubble
@@ -178,6 +178,7 @@ function LoginResponse(C) {
 			Player.LabelColor = C.LabelColor;
 			Player.ItemPermission = C.ItemPermission;
 			Player.ChatSettings = C.ChatSettings;
+			Player.VisualSettings = C.VisualSettings;
 			Player.AudioSettings = C.AudioSettings;
 			Player.GameplaySettings = C.GameplaySettings;
 			Player.WhiteList = C.WhiteList;
